@@ -1,0 +1,42 @@
+/* Add this CSS to your stylesheets or use a CSS-in-JS solution */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Change the background color as needed */
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555; /* Change the hover background color as needed */
+  }
+  
+  .active {
+    background-color: #666; /* Change the active background color as needed */
+  }
+  
